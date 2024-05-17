@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #gameCanvas {
+    border: 1px solid black;
+  }
+  
+  .platform {
+    background-color: #ccc;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+  }
+  
+  .enemy {
+    background-color: #red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+  
+  .spike {
+    background-color: #black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+  
+  .finish {
+    background-color: #green;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+  }
